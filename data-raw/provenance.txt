@@ -1,0 +1,9 @@
+Source: nycflights13::flights and nycflights13::airlines
+Source package version: 1.0.2
+Source licence: CC0
+Rows: 336776
+Missing departure delays: 8255
+Preserved all flight rows and missing delay values.
+Joined airline names by carrier code; derived dates and scheduled periods.
+Periods use scheduled local departure hour, not actual departure time.
+Source documentation: https://nycflights13.tidyverse.org/
