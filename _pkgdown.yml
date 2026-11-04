@@ -1,0 +1,28 @@
+url: https://ETC5523-2026.github.io/etc5523-assignment-4-issvish/
+destination: docs
+template:
+  bootstrap: 5
+  bootswatch: flatly
+navbar:
+  structure:
+    left: [intro, reference, articles]
+    right: [search]
+reference:
+  - title: "Filter and summarise"
+    contents:
+      - filter_flights
+      - summarise_delays
+  - title: "Launch the app"
+    contents:
+      - launch_app
+  - title: "Included data"
+    contents:
+      - flight_data
+  - title: "Package"
+    contents:
+      - flightlens-package
+articles:
+  - title: "Start here"
+    navbar: ~
+    contents:
+      - getting-started

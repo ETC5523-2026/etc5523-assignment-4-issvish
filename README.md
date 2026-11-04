@@ -89,3 +89,17 @@ pkgdown::build_site()
 ```
 
 Publish the generated `docs/` folder through GitHub Pages by selecting **Deploy from a branch**, branch **main**, and folder **/docs** in the repository's Pages settings. Check the public URL and installed package before submission.
+
+## AI-use declaration
+
+## AI-use declaration
+
+I completed this assignment independently, using **ChatGPT** as a supporting tool to clarify concepts, explore ideas and troubleshoot specific challenges throughout the development process.
+
+AI assistance included:
+- Suggesting code organisation, the structure of the pkgdown website, additional documentation pages and improvements to the Shiny application layout.
+- Troubleshooting error messages encountered during pushing my work to the remote repository
+- Troubleshooting R and Shiny errors relating to package development, dataset creation, package installation and pkgdown website generation.
+- Refining documentation wording and helping identify potential implementation errors.
+
+I remained responsible for dataset selection, analysis, application development, testing and the final submission. All AI-generated suggestions were reviewed, checked and, where appropriate, revised in RStudio before being incorporated into the submitted package. AI was used to support, rather than replace, my own understanding, judgement and work.
