@@ -135,8 +135,6 @@ before submission.
 
 ## AI-use declaration
 
-## AI-use declaration
-
 I completed this assignment independently, using **ChatGPT** as a
 supporting tool to clarify concepts, explore ideas and troubleshoot
 specific challenges throughout the development process.
