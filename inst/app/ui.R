@@ -64,7 +64,7 @@ ui <- shiny::fluidPage(
         id = "results",
         shiny::h2("Comparison results"),
         shiny::div(class = "coverage", role = "status",
-                    shiny::textOutput("coverage")),
+                   shiny::textOutput("coverage")),
         shiny::div(class = "caution", shiny::textOutput("caution")),
         shiny::plotOutput("delay_plot", height = "380px"),
         shiny::div(class = "interpretation", shiny::textOutput("interpretation")),
