@@ -92,8 +92,6 @@ Publish the generated `docs/` folder through GitHub Pages by selecting **Deploy 
 
 ## AI-use declaration
 
-## AI-use declaration
-
 I completed this assignment independently, using **ChatGPT** as a supporting tool to clarify concepts, explore ideas and troubleshoot specific challenges throughout the development process.
 
 AI assistance included:
