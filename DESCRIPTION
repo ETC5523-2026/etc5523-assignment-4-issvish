@@ -1,0 +1,29 @@
+Package: flightlens
+Title: Explore Historical Departure Delays from New York City
+Version: 0.1.0
+Authors@R:
+    person("Vishal", "Sampath", email = "vsam0014@student.monash.edu",
+           role = c("aut", "cre"))
+Description: Provides prepared New York City flight records from 2013,
+    reusable route filtering and departure-delay summaries, and a Shiny
+    application. Supports historical airline and departure-period
+    comparisons with explicit measurement denominators, missing-data
+    counts, and sample-size cautions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: xz
+Depends:
+    R (>= 4.1.0)
+Imports:
+    ggplot2,
+    shiny
+Suggests:
+    knitr,
+    nycflights13 (>= 1.0.2),
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
