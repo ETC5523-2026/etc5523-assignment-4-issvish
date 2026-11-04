@@ -1,0 +1,67 @@
+:root {
+  --ink: #172c40;
+  --muted: #4b6072;
+  --blue: #285d8c;
+  --paper: #ffffff;
+  --ground: #f1f4f7;
+  --line: #d5dfe8;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+}
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: "Source Sans 3", "Source Sans Pro", system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+.container-fluid { max-width: 1440px; padding: var(--space-6); }
+.app-heading {
+  padding: var(--space-6) var(--space-8);
+  background: #132b43;
+  color: white;
+}
+.app-heading h1 { margin: 0 0 var(--space-2); font-size: 32px; font-weight: 700; }
+.app-heading p { margin: 0; }
+.eyebrow { font-size: 12px; letter-spacing: 0.12em; color: #c6d9e9; }
+.purpose { padding: var(--space-4) 0 var(--space-2); max-width: 1000px; }
+h2 { font-size: 20px; font-weight: 650; margin-top: var(--space-4); }
+.well {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  box-shadow: none;
+}
+#results { background: var(--paper); padding: var(--space-6); }
+.coverage {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--line);
+}
+.caution { color: #705000; padding: var(--space-3) 0; font-size: 14px; }
+.help-block, .field-note { color: var(--muted); font-size: 14px; }
+.interpretation { padding: var(--space-3); background: #edf3f8; }
+.table-scroll { overflow-x: auto; }
+table { font-size: 14px; font-variant-numeric: tabular-nums; }
+summary { cursor: pointer; font-weight: 600; padding: var(--space-3) 0; }
+footer { margin-top: var(--space-6); padding-top: var(--space-4); border-top: 1px solid var(--line); font-size: 14px; }
+a { color: #22577f; text-decoration: underline; }
+:focus-visible { outline: 3px solid #bb6c13; outline-offset: 3px; }
+.skip-link { position: absolute; left: -9999px; }
+.skip-link:focus { position: static; display: block; padding: var(--space-3); }
+.form-control, .selectize-input { min-height: 44px; }
+.shiny-output-error-validation {
+  color: #754000;
+  padding: var(--space-4);
+  background: #fff4df;
+  border-radius: 4px;
+}
+@media (max-width: 767px) {
+  .container-fluid { padding: var(--space-4); }
+  .app-heading, #results { padding: var(--space-4); }
+  .well { margin-bottom: var(--space-3); }
+}
