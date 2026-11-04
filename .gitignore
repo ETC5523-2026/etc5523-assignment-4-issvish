@@ -8,3 +8,5 @@
 *.tar.gz
 *.zip
 inst/doc/
+/doc/
+/Meta/
